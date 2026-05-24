@@ -1,0 +1,19 @@
+
+body{
+  margin:0;
+}
+
+/* .layout-content{
+    font-family: sans-serif;
+} */
+
+
+.layout-container{
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* background-color: '#f9fafd'; */
+}
+

@@ -1,0 +1,65 @@
+/* About Page Container */
+.about-container{
+    padding: 10px 60px;
+    /* background-color: #f0f8ff;  */
+}
+
+/* Features Section */
+h2{
+    text-align: center;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #1a4f7a; 
+    font-weight: 700;
+}
+
+
+
+/* Feature Cards Container */
+.feature-cards{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap; 
+    text-align: center;   
+}
+
+/* Individual Feature Card */
+.feature-card{
+    width: 250px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    cursor: pointer;
+    border-top: 4px solid #27AAE1; 
+}
+
+.feature-card:hover{ 
+    transform: translateY(-8px) scale(1.03);
+    transition: 0.4s;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    border-top-color: #1a4f7a; 
+}
+
+/* Card Heading */
+.feature-card h3{
+    margin-bottom: 12px;
+    color: #27AAE1; 
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.feature-card:hover h3{
+    color: #1a4f7a;
+}
+
+/* Card Description */
+.feature-card p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}

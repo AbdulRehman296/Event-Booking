@@ -1,0 +1,23 @@
+body{
+  margin:0;
+}
+
+.adminLayout{
+  display:flex;
+  height:100vh;
+  font-family:sans-serif;
+}
+
+/* ❗ MUST be OUTSIDE .adminLayout */
+.left-side{
+  width:25%;
+  
+}
+
+.right-side{
+  width:75%;
+  height:100vh;
+  overflow-y:auto;
+  padding:20px;
+
+}
